@@ -1,0 +1,2 @@
+DTOP TABLE IF EXISTS animals;
+CREATE TABLE animals(id serial PRIMARY KEY, fact VARCHAR(255),category VARCHAR(255));
