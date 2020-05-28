@@ -22,7 +22,6 @@ public class DogsController {
 
         return animals;
     }
-    @CrossOrigin
     @GetMapping("/get")
     public Animal getOne(){
 
