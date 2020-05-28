@@ -15,6 +15,7 @@ public class DogsController {
     @Autowired
     AnimalDAO animalDAO;
 
+    @CrossOrigin
     @GetMapping("/getAll")
     public List<Animal> animal(){
 
@@ -22,6 +23,7 @@ public class DogsController {
 
         return animals;
     }
+    @CrossOrigin
     @GetMapping("/get")
     public Animal getOne(){
 
